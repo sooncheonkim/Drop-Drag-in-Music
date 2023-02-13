@@ -1,7 +1,7 @@
 # Monster Music Mixer!
 
-Welcome to the Monster's music mix playground. 
-All need you just drag and drop!
+Welcome to the Monster's music mixer playground. 
+All need you is just drag and drop!
 
 
 ## Contributing
