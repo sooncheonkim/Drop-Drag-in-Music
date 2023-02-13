@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document 
+1. common */
+
+body {
+	margin: 0px;
+	border: 0px;
+	color:#FFF;
+	font-family: 'Luckiest Guy', sans-serif;
+	font-size:30px;
+}
+
+#container {
+	width: 1920px;
+	height: 1080px;
+	background-image:url(../images/background.jpg);
+	background-repeat:no-repeat;
+}
+
+.grid {
+    display: grid;
+    padding-right: 4px; 
+    grid-template-columns: repeat(12, 137px);
+    grid-column-gap: 16px;
+}
+
+/* 2. header */
+
+header {
+    width: 1920px;
+    height: 240px;
+    display: inline-block;
+    text-align: center;
+}
+
+#speaker-01 {
+	width: 143px;
+    height: 216px;
+	grid-column: 3/4;
+}
+
+#speaker-02 {
+	width: 143px;
+    height: 216px;
+	grid-column: 10/11;
+	margin-top: -230px;
+}
+
+#speaker h1{
+	grid-column: 4/10;
+	font-size: 80px;
+	color: orange;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+#speaker p{
+	grid-column: 4/10;
+	font-size: 80px;
+	color: white;
+	margin-top: -100px;
+	margin-bottom: 0;
+}
+
+/* 3. monsters */
+
+#music-mixer {
+    width: 100%;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.monsters {
+    width: 1920px;
+	height: 400px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.monsters img {
+    width: 245px;
+	height: 237px;
+}
+
+/* 4. instrument */
